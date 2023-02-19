@@ -43,12 +43,13 @@ git clone https://github.com/yieniggu/chainstack-full-vs-archive-query-js.git
 ```
 
 ### Install dependencies
+Open a new terminal inside the cloned repository. Then run:
 
 ```sh
-npm ci
+npm install
 ```
 
-> Use `npm ci` to launch a `clean install` of the dependencies, this will install the same version as in the `package.json` file.
+> You can also use `npm ci` to launch a `clean install` of the dependencies, this will install the same version as in the `package.json` file.
 
 ### edit the .env.sample file
 
@@ -81,22 +82,3 @@ Deploy a full and archive node with Chainstack:
 * dotenv: ^16.0.3
 * inquirer: ^8.2.4
 * web3.js: ^1.7.4
-
-## Install
-
-Clone this repository:
-
-```sh
-git clone https://github.com/yieniggu/chainstack-full-vs-archive-query-js.git
-```
-
-Install the dependencies in the project's directory:
-
-```sh
-cd query-full-and-archive-nodes-javascript
-```
-
-```sh
-npm ci
-```
-> Use `npm ci` to launch a `clean install` of the dependencies, this will install the same version as in the `package.json` file.
